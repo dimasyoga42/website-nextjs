@@ -1,8 +1,8 @@
 const Navbar = () => {
 return (
 <>
-    <div className="navbar bg-base-100 md:flex justify-between md:justify-normal">
-       <a className=" btn btn-ghost hover:bg-transparent text-white text-xl hover:text-red-600">Dimasyoga</a>
+    <div className="navbar bg-base-100 md:flex justify-between md:justify-normal font-fira z-10 fixed">
+       <a className=" btn btn-ghost hover:bg-transparent text-white text-xl hover:text-red-600">D.Y</a>
        <ul className="menu menu-horizontal text-white md:flex hidden" >
   <li className="underline"><a>work</a></li>
   <li className="underline"><a>about</a></li>
