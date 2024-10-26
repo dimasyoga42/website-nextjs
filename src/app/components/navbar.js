@@ -1,8 +1,15 @@
+import Image from "next/image";
+import logoNext from '@/../public/logo.png';
 const Navbar = () => {
 return (
 <>
-    <div className="navbar bg-base-100 md:flex justify-between md:justify-normal font-fira z-10 fixed">
-       <a className=" btn btn-ghost hover:bg-transparent text-white text-xl hover:text-red-600">D.Y</a>
+    <div className="navbar bg-base-100  justify-between font-fira z-10 fixed items-center">
+      <div className="avatar">
+      <div className="w-10 rounded-full ml-2">
+      <Image src={logoNext} width={10} height={10} sizes="cover" alt="img"/>
+    </div>
+      </div>
+       
        <ul className="menu menu-horizontal text-white md:flex hidden" >
   <li className="underline"><a>work</a></li>
   <li className="underline"><a>about</a></li>
