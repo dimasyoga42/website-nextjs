@@ -10,13 +10,17 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        fira: ['Fira Code', 'monospace']
+        fira: ['Fira Code', 'monospace'],
+        martin: ['Martian Mono', 'monospace']
       }
     },
   },
